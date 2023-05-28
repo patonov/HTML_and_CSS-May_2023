@@ -1,0 +1,43 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+
+th{
+    background-color: lightblue;
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+td{
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+blockquote{
+    font-style: italic;
+    border-left: 3px solid rgb(221,221,221);
+    margin-left: 10px;
+}
+
+blockquote p{    
+    padding-left: 10px;
+    letter-spacing: 1;
+}
+
+.text{
+    text-align: left;
+}
+
+.author{
+    text-align: right;
+}
