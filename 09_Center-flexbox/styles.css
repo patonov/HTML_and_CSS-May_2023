@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.card{
+    background-color:  rgb(255, 255, 255);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    padding: 1em;
+    border-radius: 2px;
+    max-width: 20em;
+}
