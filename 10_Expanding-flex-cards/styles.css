@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(238, 238, 238);
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    gap: 2em;
+}
+
+.card{
+    width: 5em;
+    flex: 0 0 auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+}
+
+.card.flexible{
+    width: 20em;
+}
+
+/*
+.card:hover{
+    width: 20em;
+} */
+
+
+
+.media img{
+    display: block;
+    height: 100%;
+    width: auto;
+}
