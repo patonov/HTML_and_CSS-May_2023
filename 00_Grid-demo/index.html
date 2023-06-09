@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            min-height: 100vh;  
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            padding: 2em;
+            gap: 2em;
+            justify-content: center;             
+            align-content: center;
+
+            grid-template-areas: 
+            "header header"
+            "main sidebar"
+            "footer footer";
+        }
+
+        .container > * {
+            background-color: lightblue;
+            border: 1px solid black;
+            border-radius: 4px;
+            padding: 1em 1.5em;                   
+        }
+
+        /*
+        .container header, .container footer {
+            grid-column: 1 / -1;
+        } */
+
+        header{
+            grid-area: header;
+        }
+
+        footer{
+            grid-area: footer;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <p>Site title goes here</p>   
+        </header>
+
+        <main>
+            <p>The main contents go here</p>
+        </main>
+
+        <aside>
+            <p>Aside topics go here</p>
+        </aside>
+
+        <footer>
+            <p>Footer fills gaps.</p>
+        </footer>
+    </div>
+</body>
+</html>
