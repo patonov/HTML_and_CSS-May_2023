@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.viewport{
+    height: 50vh;
+    background-color: #eee;
+    overflow: hidden;
+    position: relative;
+}
+
+.card{
+    display: block;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%, -50%);
+}
+
+.card img{
+    display: block;
+    width: 30%;
+    border-radius: 4px;
+    box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.4);
+}
+
+.viewport:nth-child(1){
+    background: linear-gradient(to right, blue 10%, lightgreen 100%);
+}
+
+.viewport:nth-child(2){
+    background: linear-gradient(to right, purple 10%, orange 100%);
+}
