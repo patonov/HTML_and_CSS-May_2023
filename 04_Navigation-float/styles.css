@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 14px/1.5 Georgia, serif;
+}
+
+body{
+    font: inherit;
+    margin: 60px;
+    background-color: rgb(238, 238, 238);
+    letter-spacing: 0.2em;
+}
+
+header p, nav li{
+    display: inline-block;
+}
+
+header p {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+header nav{
+    float: right;    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(22, 114, 22)
+}
+
+h1, h2, h3, h4, h5{
+    line-height: 1.2;
+    margin-top: 1em;
+}
+
+main{
+    display: inline-block;
+    width: 70%;
+}
+
+p{
+    margin-top: 1em;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+    margin: 5px;
+    padding: 0;
+    border-left: 2px solid grey;
+    float: right;
+    width: 40%;
+    font-family: Georgia, serif;
+    text-align: top;
+}
+
+blockquote p{
+    padding-left: 2em;
+    font-style: italic;
+}
+
+blockquote span{
+    float: right;
+    font-style: italic;
+}
+
+.first_picture{
+    float: right;
+    display: block;
+}
+
+.second_picture{
+    display: block;
+    float: left;
+}
+
+img{
+    background-color: rgb(235, 235, 235);
+    border: 2px solid black;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding: 15px;
+    margin: 15px;
+}
+
+aside{
+    width: 30%;
+    float: right;
+}
+
+aside nav{
+    display: block;
+}
+
+aside section nav ul{
+    list-style-type: square;
+}
+
+aside ul li{
+    display: block;
+    padding-left: 2em;
+    color: rgb(22, 114, 22);
+}
