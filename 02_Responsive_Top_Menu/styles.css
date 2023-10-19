@@ -1,0 +1,109 @@
+body {
+    display: grid;
+    grid-template-areas: "header header header"
+                            "aside main main"
+                        "footer footer footer";
+    gap:10px;
+}
+
+header {
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+    vertical-align: middle;
+    grid-area: header;
+} 
+
+header h1, nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px
+}
+
+nav li {
+    padding: 5px 15px;
+    display: inline-flex;
+}
+
+header a {
+    display: block;
+    padding: 5px 0px;
+    color:rgb(53, 100, 153);
+    text-decoration: none;
+}
+
+aside {
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+    grid-area: aside;
+} 
+
+aside ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+aside ul li a{
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+
+main {
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+    grid-area: main;
+} 
+
+main ul li p{
+    margin-bottom: 0px;
+}
+
+footer {
+    border-radius: 3px;
+    background: rgb(181, 216, 255);
+    padding: 5px 10px;
+    grid-area: footer;
+}
+
+@media (max-width: 500px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer";
+    }
+
+    h1 {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav a {
+        display: block;
+        padding-left: 5px;
+        text-decoration: none;
+    }
+
+    .navigation li {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    ul.navigation {
+        display: block;  
+        margin: 0;
+        padding: 0; 
+        text-align: center;
+    }
+}
