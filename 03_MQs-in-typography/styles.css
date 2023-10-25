@@ -1,3 +1,153 @@
 * {
-    background-color: brown;
+    box-sizing: border-box;
 }
+
+body {
+    margin: 60px;
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif; 
+    letter-spacing: 0.3px;  
+}
+
+.web {
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-top: 0px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+p {
+    color: rgb(54, 53, 53);
+}
+
+section {
+    display: inline-block;
+    width: 70%;
+}
+
+.first {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.first .image {
+    float: right;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin: 15px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.third .image {
+    float: left;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    display: block;
+    margin: 15px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.second {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.middle {
+    max-width:100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items:flex-start
+}
+
+ .middle > * {
+    width: 50%;
+} 
+
+.middle > p {
+    padding-right: 1rem;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+blockquote {
+    margin: 5px;
+    padding: 0;
+    border-left: 2px solid rgb(173, 171, 171);
+    float: right;
+    width: 45%;
+    font-family: Georgia, serif;
+    text-align: top;
+}
+
+blockquote p {
+    margin: 0;
+    padding-left: 25px;
+}
+
+blockquote .author {
+    display: block;
+    text-align: right;
+    margin: 15px;
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+    font-size: 1.2;
+}
+
+@media (max-width: 500px) {
+    body {
+      font-size: 14px;
+    }
+
+    .middle {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .middle p {
+        width: 100%;
+    }
+
+    blockquote {
+        float: left;
+    }
+
+    blockquote p {
+        width: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    body {
+      font-size: 21px;
+    }
+  }
+  
+  @media (max-width: 1800px) {
+    body {
+      font-size: 23px;
+    }
+  }
