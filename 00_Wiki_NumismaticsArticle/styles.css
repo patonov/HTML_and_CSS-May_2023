@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.2em;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+section {
+    display: inline-flex;
+}
+
+article nav {
+    border-top: 2px solid rgb(225, 219, 219);
+    border-bottom: 2px solid rgb(225, 219, 219);
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+nav p {
+    display: inline;
+}
+
+nav p a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.main {
+    max-width: 80%;
+}
+
+.First.Paragraph {
+    font-size: 13px;
+    padding-top: 0.1em;
+    padding-bottom: 0.5em;
+}
+
+.Second.Paragraph {
+    text-indent: 1.1em;
+    padding-bottom: 0em;
+}
+
+.aside {
+    max-width: 20%;
+}
+
+.body-text {
+    margin-top: 0em;
+    margin-bottom: 1em;
+    padding-top: 0em;
+}
+
+span a {
+    text-decoration: none;
+}
+
+img {
+    width: 125px;
+    height: 110px;
+}
+
+td {
+    display: block;
+    border: 1px solid grey;
+    align-items: center;
+}
+
+td p {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Part.of.series {
+    font-size: 10px;
+}
+
+td span {
+    font-size: 10px; 
+}
+
+td a {
+    text-decoration: none;
+}
+
+.Last.Row {
+    text-align: right;
+}
+
+.links img {
+    width: 10px;
+    height: 10px;
+    padding-left: 5px;
+}
+
+.links span {
+    padding-right: 5px;
+}
+
+.LightBlue {
+    background-color: rgb(235, 235, 243);
+}
+
