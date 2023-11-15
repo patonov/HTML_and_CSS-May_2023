@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.letter {
+    border: 2px solid black;
+    background-color: red;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: space-around;
+        height: 200px;
+    }
+
+    .letter {
+        background-color: blue;
+    }
+}
