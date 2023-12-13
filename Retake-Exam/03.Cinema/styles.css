@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+* {
+    font-family: Ubuntu;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 1450px;
+    background-color: white;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header a {
+    text-decoration: none;
+    border: 1px transparent;
+    color: black;
+    background-color: rgb(236, 236, 236);
+    font-size: 10;
+    padding: 7px;
+}
+
+.link.home {
+    background-color: green;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.header-title h1 {
+    padding: 10px;
+    border-right: 2px solid rgb(236, 236, 236);
+}
+
+.header-title p {
+    padding-left: 40px;
+}
+
+img {
+    width: 1600px;
+}
+
+.first-section-internal {
+    background-color: aqua;
+    margin-top: -20px;
+    padding: 40px 60px 40px 60px;
+}
+
+.first-section-buttons {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    color: black;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between; 
+    gap: 10px;
+}
+
+li {
+    width: 350px;
+}
+
+.white {
+    color: white;
+}
+
+.second-section {
+    background-color: white;
+    padding: 40px 60px 40px 60px;
+    align-items: center;
+    justify-items: center;
+}
+
+.third-section {
+    background-color: grey;
+    color: black;
+}
+
+footer {
+    background-color: aqua;
+    color: lightgreen;
+}
+
+footer span {
+    color: white;
+}
+
+
+
